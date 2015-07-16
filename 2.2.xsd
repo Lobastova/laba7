@@ -1,0 +1,54 @@
+# laba7
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="xsd.xsd">
+	<xs:element name="Root">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Masters">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Master" maxOccurs="unbounded" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:int" name="IDMaster"/>
+										<xs:element type="xs:string" name="LastName_Master"/>
+										<xs:element type="xs:string" name="FirstName_Master"/>
+										<xs:element type="xs:string" name="PatronymicMaster"/>
+										<xs:element type="xs:string" name="CatergoryMaster"/>
+										<xs:element type="xs:date" name="DateMaster"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Product" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="NameProduct"/>
+							<xs:element type="xs:string" name="TypeProduct"/>
+							<xs:element type="xs:date" name="DateProduct"/>
+							<xs:element type="xs:string" name="SupervisorProduct"/>
+								<xs:element name="Repairs">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="Repair" maxOccurs="unbounded" minOccurs="0">
+												<xs:complexType>
+													<xs:sequence>
+														<xs:element type="xs:date" name="DateRepair"/>
+														<xs:element type="xs:string" name="TypeRepair"/>
+														<xs:element type="xs:short" name="PriceRepair"/>
+														<xs:element type="xs:int" name="IDRepair"/>
+													</xs:sequence>
+												</xs:complexType>
+											</xs:element>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+						<xs:attribute type="xs:int" name="id_Product" use="optional"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
