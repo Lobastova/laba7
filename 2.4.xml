@@ -1,0 +1,149 @@
+# laba7
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns="xsd.xsd">
+	<Drug id_Drug="1">
+		<NameDrug>Темпалгин</NameDrug>
+		<IndicationsApplication>головная, зубная боль, миалгии-боли в мышцах, артралгии</IndicationsApplication>
+		<UnitOfMeasurement>1 т - 500 мг</UnitOfMeasurement>
+		<AmountInPackage>20</AmountInPackage>
+		<Manufacturers>
+			<Manufacture>
+				<IDManufacturer>1</IDManufacturer>
+				<SmallName>Sopharma</SmallName>
+				<FullName>Централа "Софарма" АО</FullName>
+				<Adress>г.Алматы, мкр. Аксай-1а, 30а</Adress>
+				<Phone>+359 2 4055 200, +359 2 8134 200</Phone>
+				<Deliverys>
+					<Delivery>
+						<Date>2015-01-15</Date>
+						<Price>5</Price>
+						<Count>100</Count>
+						<IDDelivery>1</IDDelivery>
+					</Delivery>
+					<Delivery>
+						<Date>2015-06-20</Date>
+						<Price>5</Price>
+						<Count>100</Count>
+						<IDDelivery>2</IDDelivery>
+					</Delivery>
+				</Deliverys>
+			</Manufacture>
+		</Manufacturers>
+	</Drug>
+	<Drug id_Drug="2">
+		<NameDrug>Кальция глюконат</NameDrug>
+		<IndicationsApplication>Состояния, сопровождающиеся дефицитом кальция</IndicationsApplication>
+		<UnitOfMeasurement>1 т - 500 мг</UnitOfMeasurement>
+		<AmountInPackage>10</AmountInPackage>
+		<Manufacturers>
+			<Manufacture>
+				<IDManufacturer>1</IDManufacturer>
+				<SmallName>Sopharma</SmallName>
+				<FullName>Централа "Софарма" АО</FullName>
+				<Adress>г.Алматы, мкр. Аксай-1а, 30а</Adress>
+				<Phone>+359 2 4055 200, +359 2 8134 200</Phone>
+				<Deliverys>
+					<Delivery>
+						<Date>2015-01-15</Date>
+						<Price>5</Price>
+						<Count>100</Count>
+						<IDDelivery>1</IDDelivery>
+					</Delivery>
+					<Delivery>
+						<Date>2015-06-20</Date>
+						<Price>5</Price>
+						<Count>100</Count>
+						<IDDelivery>2</IDDelivery>
+					</Delivery>
+				</Deliverys>
+			</Manufacture>
+		</Manufacturers>
+	</Drug>
+	<Drug id_Drug="3">
+		<NameDrug>От кашля</NameDrug>
+		<IndicationsApplication>Заболевания дыхательных путей, сопровождающиеся кашлем с трудноотделяемой мокротой</IndicationsApplication>
+		<UnitOfMeasurement>1 т - 300 мг</UnitOfMeasurement>
+		<AmountInPackage>10</AmountInPackage>
+		<Manufacturers>
+			<Manufacture>
+				<IDManufacturer>1</IDManufacturer>
+				<SmallName>Sopharma</SmallName>
+				<FullName>Централа "Софарма" АО</FullName>
+				<Adress>г.Алматы, мкр. Аксай-1а, 30а</Adress>
+				<Phone>+359 2 4055 200, +359 2 8134 200</Phone>
+				<Deliverys>
+					<Delivery>
+						<Date>2015-01-15</Date>
+						<Price>5</Price>
+						<Count>100</Count>
+						<IDDelivery>1</IDDelivery>
+					</Delivery>
+					<Delivery>
+						<Date>2015-06-20</Date>
+						<Price>5</Price>
+						<Count>100</Count>
+						<IDDelivery>2</IDDelivery>
+					</Delivery>
+				</Deliverys>
+			</Manufacture>
+		</Manufacturers>
+	</Drug>
+	<Drug id_Drug="4">
+		<NameDrug>Пирацетам</NameDrug>
+		<IndicationsApplication>Нарушения памяти, головокружение, снижение концентрации внимания, эмоциональная лабильность</IndicationsApplication>
+		<UnitOfMeasurement>1 капсула - 40 мг</UnitOfMeasurement>
+		<AmountInPackage>60</AmountInPackage>
+		<Manufacturers>
+			<Manufacture>
+				<IDManufacturer>1</IDManufacturer>
+				<SmallName>Sopharma</SmallName>
+				<FullName>Централа "Софарма" АО</FullName>
+				<Adress>г.Алматы, мкр. Аксай-1а, 30а</Adress>
+				<Phone>+359 2 4055 200, +359 2 8134 200</Phone>
+				<Deliverys>
+					<Delivery>
+						<Date>2015-01-15</Date>
+						<Price>5</Price>
+						<Count>100</Count>
+						<IDDelivery>1</IDDelivery>
+					</Delivery>
+					<Delivery>
+						<Date>2015-06-20</Date>
+						<Price>5</Price>
+						<Count>100</Count>
+						<IDDelivery>2</IDDelivery>
+					</Delivery>
+				</Deliverys>
+			</Manufacture>
+		</Manufacturers>
+	</Drug>
+	<Drug id_Drug="5">
+		<NameDrug></NameDrug>
+		<IndicationsApplication>При сердечной недостаточности, физическое перенапряжение, гемофтальм</IndicationsApplication>
+		<UnitOfMeasurement>1 капсула - 250 мг</UnitOfMeasurement>
+		<AmountInPackage>40</AmountInPackage>
+		<Manufacturers>
+			<Manufacture>
+				<IDManufacturer>1</IDManufacturer>
+				<SmallName>Sopharma</SmallName>
+				<FullName>Централа "Софарма" АО</FullName>
+				<Adress>г.Алматы, мкр. Аксай-1а, 30а</Adress>
+				<Phone>+359 2 4055 200, +359 2 8134 200</Phone>
+				<Deliverys>
+					<Delivery>
+						<Date>2015-01-15</Date>
+						<Price>5</Price>
+						<Count>100</Count>
+						<IDDelivery>1</IDDelivery>
+					</Delivery>
+					<Delivery>
+						<Date>2015-06-20</Date>
+						<Price>5</Price>
+						<Count>100</Count>
+						<IDDelivery>2</IDDelivery>
+					</Delivery>
+				</Deliverys>
+			</Manufacture>
+		</Manufacturers>
+	</Drug>
+</Root>
