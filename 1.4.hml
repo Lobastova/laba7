@@ -1,0 +1,44 @@
+# laba7
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns="xsd.xsd">
+	<Drug>
+		<IDDrug>1</IDDrug>
+		<NameDrug>Темпалгин</NameDrug>
+		<IndicationsApplication>головная, зубная боль, миалгии-боли в мышцах, артралгии</IndicationsApplication>
+		<UnitOfMeasurement>1 т - 500 мг</UnitOfMeasurement>
+		<AmountInPackage>20</AmountInPackage>
+		<Manufacturer>sopharma</Manufacturer>
+	</Drug>
+	<Drug>
+		<IDDrug>2</IDDrug>
+		<NameDrug>Кальция глюконат</NameDrug>
+		<IndicationsApplication>Состояния, сопровождающиеся дефицитом кальция</IndicationsApplication>
+		<UnitOfMeasurement>1 т - 500 мг</UnitOfMeasurement>
+		<AmountInPackage>10</AmountInPackage>
+		<Manufacturer>ViDAL</Manufacturer>
+	</Drug>
+	<Drug>
+		<IDDrug>3</IDDrug>
+		<NameDrug>От кашля</NameDrug>
+		<IndicationsApplication>Заболевания дыхательных путей, сопровождающиеся кашлем с трудноотделяемой мокротой</IndicationsApplication>
+		<UnitOfMeasurement>1 т - 300 мг</UnitOfMeasurement>
+		<AmountInPackage>10</AmountInPackage>
+		<Manufacturer>ViDAL</Manufacturer>
+	</Drug>
+	<Drug>
+		<IDDrug>4</IDDrug>
+		<NameDrug>Пирацетам</NameDrug>
+		<IndicationsApplication>Нарушения памяти, головокружение, снижение концентрации внимания, эмоциональная лабильность</IndicationsApplication>
+		<UnitOfMeasurement>1 капсула - 40 мг</UnitOfMeasurement>
+		<AmountInPackage>60</AmountInPackage>
+		<Manufacturer>ViDAL</Manufacturer>
+	</Drug>
+	<Drug>
+		<IDDrug>5</IDDrug>
+		<NameDrug></NameDrug>
+		<IndicationsApplication>При сердечной недостаточности, физическое перенапряжение, гемофтальм</IndicationsApplication>
+		<UnitOfMeasurement>1 капсула - 250 мг</UnitOfMeasurement>
+		<AmountInPackage>40</AmountInPackage>
+		<Manufacturer>ViDAL</Manufacturer>
+	</Drug>
+</Root>
