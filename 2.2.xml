@@ -1,0 +1,98 @@
+# laba7
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns="xsd.xsd">
+	<Masters>
+		<Master>
+			<IDMaster>1</IDMaster>
+			<LastName_Master>Арешко</LastName_Master>
+			<FirstName_Master>Виталий</FirstName_Master>
+			<PatronymicMaster>Борисович</PatronymicMaster>
+			<CatergoryMaster>Ноутбуки, Ультрабуки</CatergoryMaster>
+			<DateMaster>2014-04-22</DateMaster>
+		</Master>
+		<Master>
+			<IDMaster>2</IDMaster>
+			<LastName_Master>Ерешенко</LastName_Master>
+			<FirstName_Master>Алекс</FirstName_Master>
+			<PatronymicMaster>Данилович</PatronymicMaster>
+			<CatergoryMaster>Персональные компьютеры, моноблоки</CatergoryMaster>
+			<DateMaster>2014-04-22</DateMaster>
+		</Master>
+	</Masters>
+	<Product id_Product="1">
+		<NameProduct>Компьютер</NameProduct>
+		<TypeProduct>Ноутбук</TypeProduct>
+		<DateProduct>2014-02-02</DateProduct>
+		<SupervisorProduct>Алексей Алексеевич</SupervisorProduct>
+		<Repairs>
+			<Repair>
+				<DateRepair>2014-06-15</DateRepair>
+				<TypeRepair>Сломанный экран</TypeRepair>
+				<PriceRepair>5000</PriceRepair>
+				<IDRepair>1</IDRepair>
+			</Repair>
+			<Repair>
+				<DateRepair>2014-08-20</DateRepair>
+				<TypeRepair>Переустановка ОС</TypeRepair>
+				<PriceRepair>1500</PriceRepair>
+				<IDRepair>2</IDRepair>
+			</Repair>
+		</Repairs>
+	</Product>
+	<Product id_Product="2">
+		<NameProduct>Компьютер</NameProduct>
+		<TypeProduct>Ультрабук</TypeProduct>
+		<DateProduct>2014-02-02</DateProduct>
+		<SupervisorProduct>Алексей Алексеевич</SupervisorProduct>
+		<Repairs>
+			<Repair>
+				<DateRepair>2014-06-25</DateRepair>
+				<TypeRepair>Обновление драйверов</TypeRepair>
+				<PriceRepair>1000</PriceRepair>
+				<IDRepair>1</IDRepair>
+			</Repair>
+		</Repairs>
+	</Product>
+	<Product id_Product="3">
+		<NameProduct>Компьютер</NameProduct>
+		<TypeProduct>Персональный компьютер</TypeProduct>
+		<DateProduct>2014-02-03</DateProduct>
+		<SupervisorProduct>Алексей Алексеевич</SupervisorProduct>
+		<Repairs>
+			<Repair>
+				<DateRepair>2014-07-10</DateRepair>
+				<TypeRepair>Переустановка ОС</TypeRepair>
+				<PriceRepair>1500</PriceRepair>
+				<IDRepair>1</IDRepair>
+			</Repair>
+		</Repairs>
+	</Product>
+	<Product id_Product="4">
+		<NameProduct>Компьютер</NameProduct>
+		<TypeProduct>Моноблок</TypeProduct>
+		<DateProduct>2014-02-02</DateProduct>
+		<SupervisorProduct>Алексей Алексеевич</SupervisorProduct>
+		<Repairs>
+			<Repair>
+				<DateRepair>2014-07-11</DateRepair>
+				<TypeRepair>Переустановка ОС</TypeRepair>
+				<PriceRepair>1500</PriceRepair>
+				<IDRepair>1</IDRepair>
+			</Repair>
+		</Repairs>
+	</Product>
+	<Product id_Product="5">
+		<NameProduct>Компьютер</NameProduct>
+		<TypeProduct>Ноутбук</TypeProduct>
+		<DateProduct>2014-02-03</DateProduct>
+		<SupervisorProduct>Алексей Алексеевич</SupervisorProduct>
+		<Repairs>
+			<Repair>
+				<DateRepair>2014-03-22</DateRepair>
+				<TypeRepair>Замена жесткого диска</TypeRepair>
+				<PriceRepair>8000</PriceRepair>
+				<IDRepair>1</IDRepair>
+			</Repair>
+		</Repairs>
+	</Product>
+</Root>
