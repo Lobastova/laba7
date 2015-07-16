@@ -1,0 +1,20 @@
+# laba7
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="xsd.xsd">
+	<xs:element name="Root">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Product" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:int" name="IDProduct"/>
+							<xs:element type="xs:string" name="NameProduct"/>
+							<xs:element type="xs:string" name="TypeProduct"/>
+							<xs:element type="xs:date" name="DateProduct"/>
+							<xs:element type="xs:string" name="SupervisorProduct"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
