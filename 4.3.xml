@@ -1,0 +1,44 @@
+# laba7
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns="xsd.xsd">
+	<Flower>
+		<IDFlower>1</IDFlower>
+		<NameFlower>Аллоэ</NameFlower>
+		<SortFlower>Акалифы Уилкса</SortFlower>
+		<MiddleHeight>3000</MiddleHeight>
+		<Blooming>false</Blooming>
+		<OtherInfo>Осенью следует обрезать стебли</OtherInfo>
+	</Flower>
+	<Flower>
+		<IDFlower>2</IDFlower>
+		<NameFlower>Аллоэ</NameFlower>
+		<SortFlower>Акалифа щетинистоволосистая</SortFlower>
+		<MiddleHeight>60</MiddleHeight>
+		<Blooming>true</Blooming>
+		<OtherInfo>Для повышения декоративных качеств обрезайте длинные и тонкие побеги</OtherInfo>
+	</Flower>
+	<Flower>
+		<IDFlower>3</IDFlower>
+		<NameFlower>Аллоэ</NameFlower>
+		<SortFlower>Алоэ устрашающее</SortFlower>
+		<MiddleHeight>50</MiddleHeight>
+		<Blooming>true</Blooming>
+		<OtherInfo>Летом можно вынести растение на улицу</OtherInfo>
+	</Flower>
+	<Flower>
+		<IDFlower>4</IDFlower>
+		<NameFlower>Аллоэ</NameFlower>
+		<SortFlower>Антуриум Андре</SortFlower>
+		<MiddleHeight>90</MiddleHeight>
+		<Blooming>true</Blooming>
+		<OtherInfo>Обрезать цветки, чтобы продлить время жизни красивых покрывал</OtherInfo>
+	</Flower>
+	<Flower>
+		<IDFlower>5</IDFlower>
+		<NameFlower>Аллоэ</NameFlower>
+		<SortFlower>Ананас крупнохохолковый</SortFlower>
+		<MiddleHeight>75</MiddleHeight>
+		<Blooming>false</Blooming>
+		<OtherInfo>Дополнительная информация отсутствует</OtherInfo>
+	</Flower>
+</Root>
