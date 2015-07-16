@@ -1,0 +1,58 @@
+# laba7
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="xsd.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Flower" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="NameFlower"/>
+              <xs:element type="xs:short" name="MiddleHeight"/>
+              <xs:element name="Blooming" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Sortes" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Sort" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:byte" name="IDSort"/>
+                                <xs:element type="xs:string" name="Type"/>
+                                <xs:element type="xs:string" name="Sort"/>
+                                <xs:element type="xs:short" name="Price_Range"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Sales">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Sale" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:byte" name="IDFlower"/>
+                                <xs:element type="xs:date" name="DateSale"/>
+                                <xs:element type="xs:string" name="PriceSale"/>
+                                <xs:element type="xs:string" name="LastName_Seller"/>
+                                <xs:element type="xs:byte" name="IDSale"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="OtherInfo"/>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="id_Flower" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
