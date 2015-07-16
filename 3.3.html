@@ -1,0 +1,88 @@
+# laba7
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Вариант 3</title>
+		
+		<meta charset="UTF-8" />
+		
+		<style>
+			body {
+				border: 1px solid #E0E0E0;
+				width: 850px;
+				margin: 5px auto;
+				padding: 10px;
+			}
+			p {
+				font-family: Arial;
+				font-size: 16px;
+				margin: 0 20px;
+				color: #333333;
+				height: 20px;
+				overflow: hidden
+			}
+			.left {
+				float: left;
+				color: #000000;
+				width: 225px;
+			}
+			.block {
+				padding: 10px 0;
+				border-bottom: 1px solid #EEEEEE;
+			}
+			.back {
+				display: block;
+				float: left;
+				padding: 5px 10px;
+				font-family: Arial;
+				font-size: 16px;
+				color: #000000;
+				border: 1px solid #E0E0E0;
+				background: #FFFFFF;
+				cursor: pointer;
+				border-radius: 3px;
+				margin: 20px -12px;
+				text-decoration: none;
+				transition: 0.25s linear background;
+			}
+			.back:hover { background: #E0E0E0; }
+		</style>
+		<script>
+			if (window.XMLHttpRequest) xmlhttp = new XMLHttpRequest();
+			else xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+			
+			xmlhttp.open("GET", "flower.xml", false);
+			xmlhttp.send();
+			xmlDoc = xmlhttp.responseXML;
+			
+			var $count = xmlDoc.getElementsByTagName("Flower");
+			
+			for($i = 0; $count[$i]; ++$i){
+				$id = $count[$i].getElementsByTagName('IDFlower')[0].innerHTML;
+				$ln = $count[$i].getElementsByTagName('NameFlower')[0].innerHTML;
+				$fn = $count[$i].getElementsByTagName('SortFlower')[0].innerHTML;
+				$pn = $count[$i].getElementsByTagName('MiddleHeight')[0].innerHTML;
+				$pw = $count[$i].getElementsByTagName('Blooming')[0].innerHTML;
+				$dw = $count[$i].getElementsByTagName('OtherInfo')[0].innerHTML;
+				
+				$tid = 'Код цветка';
+				$tln = 'Название';
+				$tfn = 'Сорт';
+				$tpn = 'Средняя высота';
+				$tpw = 'Цветущий';
+				$tdw = 'Дополнительно';
+				
+				$text = '<div class="block"><p class="left">' + $tid + ':</p><p>' + $id + '</p>'
+						+ '<p class="left">' + $tln + ':</p><p>' + $ln + '</p>' +'<p class="left">' + $tfn + ':</p><p>'
+						+ $fn + '</p>' +'<p class="left">' + $tpn + ':</p><p>' + $pn + '</p>'
+						+ '<p class="left">' + $tpw + ':</p><p>' + $pw + '</p><p class="left">' + $tdw + ':</p><p>' + $dw + '</p></div>';
+				document.write($text);
+			}
+		</script>
+	</head>
+	<body>
+		
+		
+				
+			</body>
+</html>
