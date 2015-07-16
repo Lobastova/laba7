@@ -1,0 +1,53 @@
+# laba7
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="xsd.xsd">
+	<xs:element name="Root">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Drug" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="NameDrug"/>
+							<xs:element type="xs:string" name="IndicationsApplication"/>
+							<xs:element type="xs:string" name="UnitOfMeasurement"/>
+							<xs:element type="xs:int" name="AmountInPackage"/>
+							<xs:element name="Manufacturers"  maxOccurs="5" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Manufacture">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element type="xs:int" name="IDManufacturer"/>
+													<xs:element type="xs:string" name="SmallName"/>
+													<xs:element type="xs:string" name="FullName"/>
+													<xs:element type="xs:string" name="Adress"/>
+													<xs:element type="xs:string" name="Phone"/>
+														<xs:element name="Deliverys" maxOccurs="unbounded" minOccurs="0">
+															<xs:complexType>
+																<xs:sequence>
+																	<xs:element name="Delivery" maxOccurs="unbounded" minOccurs="0">
+																		<xs:complexType>
+																			<xs:sequence>
+																				<xs:element type="xs:date" name="Date"/>
+																				<xs:element type="xs:int" name="Price"/>
+																				<xs:element type="xs:int" name="Count"/>
+																				<xs:element type="xs:int" name="IDDelivery"/>
+																			</xs:sequence>
+																		</xs:complexType>
+																	</xs:element>
+																</xs:sequence>
+															</xs:complexType>
+														</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					<xs:attribute type="xs:int" name="id_Drug" use="optional"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
