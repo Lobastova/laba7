@@ -1,0 +1,45 @@
+# laba7
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="xsd.xsd">
+	<xs:element name="Root">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Worker" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="LastName_Worker"/>
+							<xs:element type="xs:string" name="FirstName_Worker"/>
+							<xs:element type="xs:string" name="Patronymic_Worker"/>
+							<xs:element type="xs:string" name="PositionWorker"/>
+							<xs:element type="xs:date" name="DateWorker"/>
+							<xs:element name="Children" minOccurs="0" maxOccurs="10">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Child" maxOccurs="unbounded" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element type="xs:int" name="IDChild"/>
+													<xs:element type="xs:string" name="NameChild"/>
+													<xs:element type="xs:date" name="DateChild"/>
+													<xs:element name="Gifts" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element type="xs:int" name="IDGift"/>
+																<xs:element type="xs:date" name="DateGift"/>
+																<xs:element type="xs:short" name="PriceGift"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute type="xs:int" name="id_Worker" use="optional"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
