@@ -1,0 +1,171 @@
+# laba7
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns="xsd.xsd">
+	<Flower id_Flower="1">
+		<NameFlower>Аллоэ</NameFlower>
+		<MiddleHeight>3000</MiddleHeight>
+		<Blooming>
+			<Sortes>
+				<Sort>
+					<IDSort>1</IDSort>
+					<Type>Цветочный</Type>
+					<Sort>Акалифы Уилкса</Sort>
+					<Price_Range>3500</Price_Range>
+				</Sort>
+				<Sort>
+					<IDSort>2</IDSort>
+					<Type>Цветочный</Type>
+					<Sort>Акалифы Уилкса</Sort>
+					<Price_Range>3000</Price_Range>
+				</Sort>
+			</Sortes>
+			<Sales>
+				<Sale>
+					<IDFlower>1</IDFlower>
+					<DateSale>2014-03-21</DateSale>
+					<PriceSale>3000</PriceSale>
+					<LastName_Seller>Каримова</LastName_Seller>
+					<IDSale>1</IDSale>
+				</Sale>
+				<Sale>
+					<IDFlower>1</IDFlower>
+					<DateSale>2014-03-22</DateSale>
+					<PriceSale>3500</PriceSale>
+					<LastName_Seller>Каримова</LastName_Seller>
+					<IDSale>2</IDSale>
+				</Sale>
+			</Sales>
+		</Blooming>
+		<OtherInfo>Осенью следует обрезать стебли</OtherInfo>
+	</Flower>
+	<Flower id_Flower="2">
+		<NameFlower>Аллоэ</NameFlower>
+		<MiddleHeight>60</MiddleHeight>
+		<Blooming>
+			<Sortes>
+				<Sort>
+					<IDSort>1</IDSort>
+					<Type>Цветочный</Type>
+					<Sort>Акалифа щетинистоволосистая</Sort>
+					<Price_Range>1600</Price_Range>
+				</Sort>
+			</Sortes>
+			<Sales>
+				<Sale>
+					<IDFlower>2</IDFlower>
+					<DateSale>2014-03-18</DateSale>
+					<PriceSale>1600</PriceSale>
+					<LastName_Seller>Каримова</LastName_Seller>
+					<IDSale>1</IDSale>
+				</Sale>
+				<Sale>
+					<IDFlower>2</IDFlower>
+					<DateSale>2014-03-13</DateSale>
+					<PriceSale>1600</PriceSale>
+					<LastName_Seller>Каримова</LastName_Seller>
+					<IDSale>2</IDSale>
+				</Sale>
+			</Sales>
+		</Blooming>
+		<OtherInfo>Для повышения декоративных качеств обрезайте длинные и тонкие побеги</OtherInfo>
+	</Flower>
+	<Flower id_Flower="3">
+		<NameFlower>Аллоэ</NameFlower>
+		<MiddleHeight>50</MiddleHeight>
+		<Blooming>
+			<Sortes>
+				<Sort>
+					<IDSort>1</IDSort>
+					<Type>Кактусовый</Type>
+					<Sort>Алоэ устрашающее</Sort>
+					<Price_Range>1500</Price_Range>
+				</Sort>
+			</Sortes>
+			<Sales>
+				<Sale>
+					<IDFlower>3</IDFlower>
+					<DateSale>2014-03-25</DateSale>
+					<PriceSale></PriceSale>
+					<LastName_Seller>Каримова</LastName_Seller>
+					<IDSale>1</IDSale>
+				</Sale>
+				<Sale>
+					<IDFlower>3</IDFlower>
+					<DateSale>2014-03-26</DateSale>
+					<PriceSale></PriceSale>
+					<LastName_Seller>Каримова</LastName_Seller>
+					<IDSale>2</IDSale>
+				</Sale>
+			</Sales>
+		</Blooming>
+		<OtherInfo>Летом можно вынести растение на улицу</OtherInfo>
+	</Flower>
+	<Flower id_Flower="4">
+		<NameFlower>Аллоэ</NameFlower>
+		<MiddleHeight>90</MiddleHeight>
+		<Blooming>
+			<Sortes>
+				<Sort>
+					<IDSort>1</IDSort>
+					<Type>Цветочный</Type>
+					<Sort>Антуриум Андре</Sort>
+					<Price_Range>2000</Price_Range>
+				</Sort>
+				<Sort>
+					<IDSort>1</IDSort>
+					<Type>Цветочный</Type>
+					<Sort>Антуриум Андре</Sort>
+					<Price_Range>2000</Price_Range>
+				</Sort>
+			</Sortes>
+			<Sales>
+				<Sale>
+					<IDFlower>4</IDFlower>
+					<DateSale>2014-03-27</DateSale>
+					<PriceSale>2000</PriceSale>
+					<LastName_Seller>Каримова</LastName_Seller>
+					<IDSale>1</IDSale>
+				</Sale>
+				<Sale>
+					<IDFlower>4</IDFlower>
+					<DateSale>2014-03-28</DateSale>
+					<PriceSale>2000</PriceSale>
+					<LastName_Seller>Каримова</LastName_Seller>
+					<IDSale>2</IDSale>
+				</Sale>
+			</Sales>
+		</Blooming>
+		<OtherInfo>Обрезать цветки, чтобы продлить время жизни красивых покрывал</OtherInfo>
+	</Flower>
+	<Flower id_Flower="5">
+		<NameFlower>Аллоэ</NameFlower>
+		<MiddleHeight>75</MiddleHeight>
+		<Blooming>
+			<Sortes>
+				<Sort>
+					<IDSort>1</IDSort>
+					<Type>Кактусовый</Type>
+					<Sort>Ананас крупнохохолковый</Sort>
+					<Price_Range>1000</Price_Range>
+				</Sort>
+			</Sortes>
+			<Sales>
+				<Sale>
+					<IDFlower>5</IDFlower>
+					<DateSale>2014-03-11</DateSale>
+					<PriceSale>1000</PriceSale>
+					<LastName_Seller>Каримова</LastName_Seller>
+					<IDSale>1</IDSale>
+				</Sale>
+				<Sale>
+					<IDFlower>5</IDFlower>
+					<DateSale>2014-03-08</DateSale>
+					<PriceSale>1000</PriceSale>
+					<LastName_Seller>Каримова</LastName_Seller>
+					<IDSale>2</IDSale>
+				</Sale>
+			</Sales>
+		</Blooming>
+		<OtherInfo>Дополнительная информация отсутствует</OtherInfo>
+	</Flower>
+</Root>
