@@ -1,0 +1,21 @@
+# laba7
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="xsd.xsd">
+	<xs:element name="Root">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Drug" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:byte" name="IDDrug"/>
+							<xs:element type="xs:string" name="NameDrug"/>
+							<xs:element type="xs:string" name="IndicationsApplication"/>
+							<xs:element type="xs:string" name="UnitOfMeasurement"/>
+							<xs:element type="xs:byte" name="AmountInPackage"/>
+							<xs:element type="xs:string" name="Manufacturer"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
