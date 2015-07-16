@@ -1,0 +1,39 @@
+# laba7
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns="xsd.xsd">
+	<Product>
+		<IDProduct>1</IDProduct>
+		<NameProduct>Компьютер</NameProduct>
+		<TypeProduct>Ноутбук</TypeProduct>
+		<DateProduct>2014-02-02</DateProduct>
+		<SupervisorProduct>Алексей Алексеевич</SupervisorProduct>
+	</Product>
+	<Product>
+		<IDProduct>2</IDProduct>
+		<NameProduct>Компьютер</NameProduct>
+		<TypeProduct>Ультрабук</TypeProduct>
+		<DateProduct>2014-02-02</DateProduct>
+		<SupervisorProduct>Алексей Алексеевич</SupervisorProduct>
+	</Product>
+	<Product>
+		<IDProduct>3</IDProduct>
+		<NameProduct>Компьютер</NameProduct>
+		<TypeProduct>Персональный компьютер</TypeProduct>
+		<DateProduct>2014-02-03</DateProduct>
+		<SupervisorProduct>Алексей Алексеевич</SupervisorProduct>
+	</Product>
+	<Product>
+		<IDProduct>4</IDProduct>
+		<NameProduct>Компьютер</NameProduct>
+		<TypeProduct>Моноблок</TypeProduct>
+		<DateProduct>2014-02-02</DateProduct>
+		<SupervisorProduct>Алексей Алексеевич</SupervisorProduct>
+	</Product>
+	<Product>
+		<IDProduct>5</IDProduct>
+		<NameProduct>Компьютер</NameProduct>
+		<TypeProduct>Ноутбук</TypeProduct>
+		<DateProduct>2014-02-03</DateProduct>
+		<SupervisorProduct>Алексей Алексеевич</SupervisorProduct>
+	</Product>
+</Root>
